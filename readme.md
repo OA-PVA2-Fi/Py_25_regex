@@ -27,7 +27,22 @@ Správný formát: 4P6 4482, 6A2 6635, 2AD 3424, 4C3 5025
 
 B) Rozšiřte kontrolu SPZ na povolení pouze znaku kraje: A, B, C, E, H, J, K, L, M, P, S, T, U, Z.
 
+
 ### 4
+V Česku máme standardně devítimístná telefonní čísla. Napiš regulární výraz, který sedí na “naše” telefonní čísla.
+
+Často se telefonní číslo rozděluje na trojčíslí oddělené mezerou. Uprav svůj výraz tak, aby odpovídal číslům s mezerou i bez mezery.
+
+Rozšiř regulární výraz tak, aby bylo možné před telefonní číslo přidat mezinárodní předvolbu (v našem případě +420), aby nám mohli volat i lidé ze zahraničí. 
+
+Vzor pro otestování:
+553123987
+553 312 987
++420 553 312 987
+
+
+
+### 5
 Definujte regulární výraz pro kontrolu emailové adresy.
 
 * Každá emailová adresa může mít před zavináčem znaky americké abecedy, číslice, tečky, podtržítko
