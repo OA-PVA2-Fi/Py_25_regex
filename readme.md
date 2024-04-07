@@ -1,5 +1,5 @@
 # PVA2 - Programování a vývoj aplikací
-## Cvičení 16: Regulární výrazy
+## Cvičení 25: Regulární výrazy
 
 ### 1
 Náš systém vyžaduje od uživatele zadání uživatelského jména. Uživatelské jméno smí obsahovat pouze malá písmena a smí být maximálně 8 znaků dlouhé. Požádej uživatele o zadání uživatelského jména a pomocí regulárního výrazu vyhodnoť, zda je zadané správné.
