@@ -3,7 +3,6 @@
 
 Regulární výrazy a programy uložte v repozitáři.
 
-
 ### 1
 Najděte a otestujte správnost na vstupech:
 * všechna číslice v řetězci. 
@@ -21,11 +20,16 @@ Příklad vstupů pro otestování funkčnosti
 * 451 stupnu Fahrenheita
 * 101 dalmatinu
 
-
 ### 2
-Náš systém vyžaduje od uživatele zadání uživatelského jména. Uživatelské jméno smí obsahovat pouze malá písmena a smí být maximálně 8 znaků dlouhé. Požádej uživatele o zadání uživatelského jména a pomocí regulárního výrazu vyhodnoť, zda je zadané správné.
+- Extrahuj všechna data ve formátu dd/mm/yyyy: `10/12/2024, 01-01-2024, 23/07/2023, 12.12.2024`
+- Najdi všechna slova začínající na `a` v řetězci `apple banana apricot orange avocado`
+- Najdi všechna slova obsahující číslici `abc123, def456ghi, 789, no_digits_here`
+- Najdi všechny věty končící otazníkem. `How are you? I am fine. What about you? Sure!`
 
 ### 3
+Náš systém vyžaduje od uživatele zadání uživatelského jména. Uživatelské jméno smí obsahovat pouze malá písmena a smí být maximálně 8 znaků dlouhé. Požádej uživatele o zadání uživatelského jména a pomocí regulárního výrazu vyhodnoť, zda je zadané správné.
+
+### 4
 Pro školní systém definujte ověření na školní emailové adresy.
 * Na prvním místě může být jedno písmeno D, B nebo C
 * Druhé až páté místo jsou číslice
@@ -33,8 +37,12 @@ Pro školní systém definujte ověření na školní emailové adresy.
 
 Například: D40123@oaopava.cz	
 
+### 5 PSČ
+- Naprogramuj validaci českého formátu PSČ
+- Najdi pouze správná česká PSČ: `123 45, 54321, 987 65, 12-345, 5432, 123  32`
+- 
 
-### 4
+### 6
 Vytvořte program pro kontrolu správnosti SPZ vozidla.
 
 * Na prvním místě je číslo.
@@ -49,7 +57,7 @@ Správný formát: 4P6 4482, 6A2 6635, 2AD 3424, 4C3 5025
 B) Rozšiřte kontrolu SPZ na povolení pouze znaku kraje: A, B, C, E, H, J, K, L, M, P, S, T, U, Z.
 
 
-### 5
+### 7
 V Česku máme standardně devítimístná telefonní čísla. Napiš regulární výraz, který sedí na “naše” telefonní čísla.
 
 Často se telefonní číslo rozděluje na trojčíslí oddělené mezerou. Uprav svůj výraz tak, aby odpovídal číslům s mezerou i bez mezery.
@@ -63,7 +71,7 @@ Vzor pro otestování:
 
 
 
-### 6
+### 8
 Definujte regulární výraz pro kontrolu emailové adresy.
 
 * Každá emailová adresa může mít před zavináčem znaky americké abecedy, číslice, tečky, podtržítko
